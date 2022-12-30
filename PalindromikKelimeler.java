@@ -1,5 +1,3 @@
-package Proje6;
-
 public class PalindromikKelimeler {
 
     static boolean isPalindrome(String str) {
@@ -22,7 +20,7 @@ public class PalindromikKelimeler {
         for (int i = str.length() - 1; i >= 0; i--) {
             reverse += str.charAt(i);
         }
-        return str.equals(reverse);         //str reverse'ye yani tersten yazdırılmış kelmieye eşit mi.
+        return str.equals(reverse);
     }
 
     public static void main(String[] args) {
